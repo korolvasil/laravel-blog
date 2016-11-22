@@ -14,9 +14,17 @@ $anchor-font-weight: $font-weight-bold;
 $font-family-header: 'Raleway', sans-serif;
 $font-family-body: 'Lato ', sans-serif;
 
+$susy: (
+  columns: 12,
+  gutters: .25,
+  container: 960px
+);
+
 // End of custom variables
 
 
+
+/* Bootstrap Variables
 
 // Body
 $body-bg: #f5f8fa;
@@ -54,3 +62,5 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+*/
