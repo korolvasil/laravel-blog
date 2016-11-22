@@ -1,5 +1,5 @@
 @extends('templates.app')
 
 @section('main')
-Article Page
+    Article Page
 @endsection

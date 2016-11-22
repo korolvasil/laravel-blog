@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Clean Laravel 5.3 project</title>
+    <title>Blog</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,500,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 </head>
 <body>
 

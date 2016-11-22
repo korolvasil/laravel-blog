@@ -4,7 +4,7 @@ Route::get('/', function (){
     return view('home.home');
 });
 
-Route::get('/article', function () {
-    return view('article.article');
+Route::get('/post', function () {
+    return view('post.post');
 });
 
