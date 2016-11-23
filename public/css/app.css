@@ -61,4 +61,45 @@ h1, h2, h3, h4, h5 {
   margin-top: 0;
 }
 
+body {
+  font-family: "Lato ", sans-serif;
+  color: #515151;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif;
+  color: #353535;
+}
+
+.article {
+  margin-bottom: 60px;
+}
+
+.article__header {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.article__subheader {
+  font-size: 1.4em;
+  font-family: "Lato ", sans-serif;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.article__body {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+@media (min-width: 720px) {
+  .article {
+    width: 66.1016949153%;
+    float: left;
+    margin-right: 1.6949152542%;
+    margin-left: 16.9491525424%;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
