@@ -11,6 +11,8 @@
 </head>
 <body>
 
+@yield('header')
+
 <div class="container">
     @yield('main')
 </div>
