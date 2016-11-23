@@ -38,6 +38,16 @@ $input-color-placeholder: lighten($text-color, 30%);
 $panel-default-heading-bg: #fff;
 
 */
+body {
+  margin: 0;
+  padding: 60px 0;
+  line-height: 1.9;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
 .container {
   max-width: 960px;
   margin-left: auto;
@@ -51,14 +61,10 @@ $panel-default-heading-bg: #fff;
   clear: both;
 }
 
-body {
-  margin: 0;
-  padding: 60px 0;
-  line-height: 1.9;
-}
-
-h1, h2, h3, h4, h5 {
-  margin-top: 0;
+a {
+  color: #47b8e0;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 body {
@@ -100,6 +106,21 @@ h1, h2, h3, h4, h5 {
     margin-right: 1.6949152542%;
     margin-left: 16.9491525424%;
   }
+}
+
+.author {
+  height: 60px;
+  margin-bottom: 60px;
+}
+
+.author__details {
+  padding-left: calc(60px + 20px);
+}
+
+.author__image {
+  width: 60px;
+  border-radius: 100%;
+  float: left;
 }
 
 /*# sourceMappingURL=app.css.map */
