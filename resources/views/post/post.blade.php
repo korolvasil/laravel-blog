@@ -68,5 +68,10 @@
                 Doloribus minima natus tempora vero.
             </p>
         </div>
+
+        <a href="#" class="tag">Coding</a>
+        <a href="#" class="tag">Education</a>
+
     </article>
+
 @endsection
