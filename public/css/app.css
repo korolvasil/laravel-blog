@@ -61,6 +61,33 @@ h1, h2, h3, h4, h5 {
   clear: both;
 }
 
+.content {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sidebar {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 970px) {
+  .sidebar {
+    width: 32.2033898305%;
+    float: right;
+    margin-right: 0;
+  }
+  .content {
+    width: 66.1016949153%;
+    float: left;
+    margin-right: 1.6949152542%;
+  }
+}
+
 a {
   color: #47b8e0;
   font-weight: 700;
@@ -146,6 +173,35 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
   color: #515151;
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-bottom: 60px;
+}
+
+.post__header {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.post__author {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.post__author a {
+  font-weight: 400;
+}
+
+.post__time {
+  margin-left: 10px;
+}
+
+.post__preview {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=app.css.map */
